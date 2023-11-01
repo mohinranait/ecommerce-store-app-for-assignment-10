@@ -3,9 +3,9 @@
 
 ## Necessary Links 
 - Website Link: https://assignment-10-d4641.web.app/
-- Github client-side: https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-mohinranait
+- Github client-side: https://github.com/mohinranait/ecommerce-store-app-for-assignment-10
 
-- Github server-side: https://github.com/programming-hero-web-course-4/b8a10-brandshop-server-side-mohinranait
+- Github server-side: https://github.com/mohinranait/ecommerce-store-app-for-assignment-10-server
 
 ## Some project features
 - All device responsive design
