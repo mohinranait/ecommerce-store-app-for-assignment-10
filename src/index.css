@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .social-btn{
+        @apply w-8 h-8 bg-gray-100 flex items-center justify-center rounded-full relative before:w-full before:h-full before:absolute before:bg-primary before:left-0 before:top-0 before:rounded-full before:scale-0 before:hover:scale-100 before:transition-all before:duration-500 text-slate-700 hover:text-white transition-all duration-300  
+    }
+    .header-link{
+        @apply px-6 py-[14px] uppercase font-semibold text-sm inline-block hover:bg-primary text-white
+    }
+    .header-input{
+        @apply py-[14px] outline-none rounded-l-3xl pl-5 px-3 w-full text-sm text-gray-500 dark:bg-transparent
+    }
+    .search-btn{
+        @apply px-5 bg-secondary text-white rounded-r-3xl dark:bg-primary
+    }
+    .count-cart {
+        @apply absolute -right-2 -top-2 bg-primary text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center
+    }
+    .header-social{
+        @apply text-white py-3 inline-block hover:text-primary transition-all duration-300
+    }
+    .header-menu{
+        @apply py-[14px] uppercase font-semibold text-sm inline-block text-primary hover:text-white
+    }
+    .advertizment {
+        @apply col-span-3 px-5 lg:px-0 md:col-span-1 lg:col-span-3 grid grid-cols-3 gap-5
+    }
+    .brandgrid{
+        @apply grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5
+    }
+    .brand-card{
+        @apply bg-white p-4 rounded-md border dark:bg-[#1E293B] dark:border-transparent
+    }
+    .brandimg{
+        @apply  sm:h-[150px] overflow-hidden md:h-[150px] lg:h-[110px] xl:h-[150px] w-full h-full flex items-center bg-gray-100 rounded-md p-2 mb-2
+    }
+    .product-card{
+        @apply  bg-white dark:bg-[#1E293B] flex flex-col md:min-h-[390px] 
+    }
+    .pbottom{
+        @apply  flex  items-center justify-between px-4 pb-4
+    }
+    .pright{
+        @apply w-[90px] h-[90px] border rounded-md overflow-hidden
+    }
+    .mobilemenu{
+        @apply px-5 py-2 inline-block text-secondary hover:bg-primary w-full hover:text-white transition-all duration-300
+    }
+    .mobilemenu-icon{
+        @apply py-2  inline-block text-gray-700 hover:text-gray-900
+    }
+    .mobilembttom{
+        @apply fixed bottom-0 border-t border-slate-100 z-[100] left-0 w-full py-1 bg-white
+    }
+    .mobile-left{
+        @apply w-[70vw] z-50  top-0 left-0 bottom-0 bg-white shadow
+    }
+    .brandinfo{
+        @apply order-2 lg:order-1 col-span-12 py-10 lg:py-0 lg:col-span-3 bg-[#ececec] h-full flex items-center justify-center dark:bg-black
+    }
+    .bproduct{
+        @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5
+    }
+}
